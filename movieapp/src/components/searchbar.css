@@ -1,0 +1,62 @@
+.search-container {
+  margin-bottom: 40px;
+  position: relative;
+  max-width: 600px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  border: 2px solid #333;
+  font-size: 16px;
+  background: #222;
+  color: #fff;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  background: #1f1f1f;
+  border-radius: 10px;
+  z-index: 10;
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #333;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.7);
+}
+
+.search-item {
+  padding: 12px;
+  border-bottom: 1px solid #2a2a2a;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: background 0.2s;
+}
+
+.search-item:hover {
+  background: #2a2a2a;
+}
+
+.search-poster {
+  width: 45px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.search-title {
+  display: block;
+  color: #fff;
+}
+
+.search-year {
+  font-size: 13px;
+  color: #888;
+}
